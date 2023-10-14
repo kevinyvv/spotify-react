@@ -12,15 +12,15 @@ const Hero = () => {
             {//background animations 
             }
             <div id="blob" className='absolute top-0 -left-4 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
-            opacity-50 animate-blob'>""</div>
+            opacity-50 animate-blob pointer-events-none'>""</div>
             <div className='absolute top-10 -right-20 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
-            opacity-50 animate-blob animation-delay-2000'>""</div>
+            opacity-50 animate-blob animation-delay-2000 pointer-events-none'>""</div>
             <div className='absolute -bottom-4 -left-40 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
-            opacity-50 animate-blob animation-delay-4000'>""</div> 
+            opacity-50 animate-blob animation-delay-4000 pointer-events-none'>""</div> 
             <div className='absolute bottom-36 -right-40 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
-            opacity-50 animate-blob animation-delay-4000'>""</div> 
+            opacity-50 animate-blob animation-delay-4000 pointer-events-none'>""</div> 
             <div className='absolute center w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
-            opacity-50 animate-blob animation-delay-6000'>""</div>
+            opacity-50 animate-blob animation-delay-6000 pointer-events-none'>""</div>
             <p className = 'font-bold md:text-2xl sm:text-xl text-lg text-[#1DB954] font-montserrat'> Find the songs you like.</p>
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:pt-6 text-white font-montserrat
                 glow:text-glow/50'> 
