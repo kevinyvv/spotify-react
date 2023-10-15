@@ -47,7 +47,7 @@ const Authorize = () => {
                 </h1>
 {/* checking if an account is linked */}
                 {!used && !token ? <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=${SCOPE}&response_type=${RESPONSE_TYPE}`}
-                className='rounded-3xl bg-white text-black font-montserrat font-bold my-4 mx-4 text-justify py-2 px-4'>Login to Spotify.</a>
+                className='rounded-3xl z-50 bg-white text-black font-montserrat font-bold my-4 mx-4 text-justify py-2 px-4'>Login to Spotify.</a>
                     :<button onClick={logout}
                     className='rounded-lg font-bold font-montserrat w-[100px] bg-[#1DB954] hover:bg-[#2bde6a] my-4 mx-4'> 
                     Logout

@@ -13,7 +13,7 @@ const Hero = () => {
             }
             <div id="blob" className='absolute top-0 -left-4 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
             opacity-50 animate-blob pointer-events-none'>""</div>
-            <div className='absolute top-10 -right-20 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
+            <div className='absolute top-20 -right-20 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
             opacity-50 animate-blob animation-delay-2000 pointer-events-none'>""</div>
             <div className='absolute -bottom-4 -left-40 w-56 h-56 bg-[#1DB954] rounded-full filter blur-xl
             opacity-50 animate-blob animation-delay-4000 pointer-events-none'>""</div> 
