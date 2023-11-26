@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 const Authorize = () => {
-  const CLIENT_ID = "445063991dde42efbaa3536012567e7d"
+  const CLIENT_ID = "xxxxxxxxxxxxxxxxx"
   const REDIRECT_URI = "https://kevinyvv.github.io/spotify-react"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const SCOPE = "user-top-read, playlist-modify-public, playlist-modify-private, user-read-email, user-read-private"
