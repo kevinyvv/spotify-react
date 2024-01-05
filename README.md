@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Spotify Discover Weekly Whenever
+Web app designed to help users' find the music they want - whenever.
+Based off Spotify's "Discover Weekly" feature, but able to be used whenever.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Technologies Used
+### React (Frontend)
+### Javascript (API Calls)
 
-## Available Scripts
+# Functions
 
-In the project directory, you can run:
+The following link contains a demo video of the web app. *link*
 
-### `npm start`
+## Get Top Songs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Grabs users' top songs based on listening history and displays them. Option to choose duration of listening history, and amount of songs.
+ 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Generate Recommendations
 
-### `npm test`
+Generates a list of recommended songs based on Spotify's recommendation algorithm. Option to choose amount of songs generated.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Create Playlist
 
-### `npm run build`
+Easily save generated recommendations as a playlist with the click of a button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# To Do
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Publish App/Apply for Publication
+In order for users' to freely use the application without being listed, the app must be published through the Spotify Developer portal. I hope to implement some further improvements, then apply for publication.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## More Options!
+I'd like to add more options, including 
+- generate playlist based on custom songs
+- generate playlist based on mood
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Publication
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+App is live at kevinyvv.github.io/spotify-react.
+If interested in trying/using the app, email or message me to add your Spotify account to the app's Spotify permissions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
