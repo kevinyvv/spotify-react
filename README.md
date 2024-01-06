@@ -36,7 +36,7 @@ I'd like to add more options, including
 
 # Publication
 
-App is live at kevinyvv.github.io/spotify-react.
+App is live at [here](https://kevinyvv.github.io/spotify-react).
 If interested in trying/using the app, email or message me to add your Spotify account to the app's Spotify permissions.
 
 
