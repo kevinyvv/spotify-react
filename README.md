@@ -8,7 +8,9 @@ Based off Spotify's "Discover Weekly" feature, but able to be used whenever.
 
 # Functions
 
-The following link contains a demo video of the web app. *link*
+App is live [here](https://kevinyvv.github.io/spotify-react).
+If interested in trying/using the app, email or message me to add your Spotify account to the app's Spotify permissions.
+
 
 ## Get Top Songs
 
@@ -32,11 +34,5 @@ In order for users' to freely use the application without being listed, the app 
 I'd like to add more options, including 
 - generate playlist based on custom songs
 - generate playlist based on mood
-
-
-# Publication
-
-App is live [here](https://kevinyvv.github.io/spotify-react).
-If interested in trying/using the app, email or message me to add your Spotify account to the app's Spotify permissions.
 
 
