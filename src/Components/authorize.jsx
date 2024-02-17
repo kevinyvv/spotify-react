@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 const Authorize = () => {
-  const CLIENT_ID = "xxxxxxxxxxxxxxxxx"
+  const CLIENT_ID = "445063991dde42efbaa3536012567e7d"
   const REDIRECT_URI = "https://kevinyvv.github.io/spotify-react"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const SCOPE = "user-top-read, playlist-modify-public, playlist-modify-private, user-read-email, user-read-private"
@@ -20,7 +20,7 @@ const Authorize = () => {
     let token = window.localStorage.getItem("token")
 
     if (!token && hash) {
-        token = hash.substring(1).split("&").find(elem => elem.startsWith("access_token")).split("=")[1]
+        token = hash.substring(1)?.split("&").find(elem => elem.startsWith("access_token")).split("=")[1]
 
         window.location.hash = ""
         window.localStorage.setItem("token", token)
@@ -41,7 +41,8 @@ const Authorize = () => {
 
   return (
     <div className="bg-black h-4/5" id="top">
-       <div className="flex justify-between">
+       <div className="flex j
+       ustify-between">
               <h1 className='text-white font-bold sm:text-2xl text-lg my-4 mx-4'>
                 <text className='font-montserrat'> Spotify Discover Whatever Whenever. </text>
                 </h1>

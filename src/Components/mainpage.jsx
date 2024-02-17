@@ -39,7 +39,7 @@ const [displaypl, setDisplaypl] = useState(true)
   }
 
   return(
-    <div id="main" className='w-full mt-[-96px] w-full h-screen mx-auto text-center font-montserrat grow'>
+    <div id="main" className='w-full mt-[-96px] h-full mx-auto text-center font-montserrat grow'>
       <TopSongs handleCallback={CallBack}/>
       {displayrec ? <FadeIn delay="200" transitionDuration="2000"> <Recs props={datatopass}/> </FadeIn> 
       : <FadeIn delay="1000" transitionDuration="800"> <FaArrowUp size={40} className='fill-white scale-75 sm:scale-100 lg:scale-150 mt-16 mb-4 mx-auto'/>

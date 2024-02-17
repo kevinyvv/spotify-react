@@ -66,14 +66,13 @@ const handleNumba=(e)=>{
       <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3'>
        { tops.map((items) => (
           <div key={items.id} className='col-span-1 mx-8 my-8'>
-          <span className='flex justify-center space-x-8 mx-16'>
-          <img src = {items.album.images[2].url} className='rounded-lg mx-8 scale-150 h-2/3 align-middle'/>
-          <span className='space-y-2'>
-          <p className='font-bold text-white truncate w-80'>{items.name + ' '} by {items.artists[0].name} </p>
-          <audio controls src = {items.preview_url} className='color-[#1DB954]'> </audio>
-          </span>
-          {/* add play function*/}
-          </span>
+            <span className='flex justify-center space-x-8 mx-16'>
+              <img src = {items.album.images[2].url} className='rounded-lg mx-8 scale-150 h-2/3 align-middle'/>
+              <span className='space-y-2'>
+                <p className='font-bold text-white truncate w-80'>{items.name + ' '} by {items.artists[0].name} </p>
+                <audio controls src = {items.preview_url} className='color-[#1DB954]'> </audio>
+              </span>
+            </span>
           </div>
     )
     )}

@@ -1,7 +1,5 @@
 import React from 'react';
 import Typed from 'react-typed'
-import { FaHtml5, FaPython, FaReact } from "react-icons/fa6";
-import { SiTailwindcss, SiCplusplus } from "react-icons/si";
 import { Glow, GlowCapture } from '@codaworks/react-glow';
 
 const Hero = () => {
