@@ -1,8 +1,6 @@
 
 import {useEffect, useState, Fragment, useContext, createContext} from 'react';
 import axios from 'axios';
-import Authorize from './authorize';
-import Main from './mainpage';
 import Playlist from './CreatePlaylist';
 import { FaArrowUp } from 'react-icons/fa';
 import FadeIn from 'react-fade-in/lib/FadeIn';

@@ -1,9 +1,5 @@
-
 import {useEffect, useState, Fragment, useContext} from 'react';
 import axios from 'axios';
-import Authorize from './authorize';
-import Main from './mainpage';
-import Recs from './Recommendations';
 import { UridsContext } from './Recommendations';
 
 const Playlist = () => {

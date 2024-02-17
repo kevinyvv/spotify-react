@@ -1,5 +1,4 @@
 import React from 'react';
-import Typed from 'react-typed'
 import { Glow, GlowCapture } from '@codaworks/react-glow';
 
 const Hero = () => {

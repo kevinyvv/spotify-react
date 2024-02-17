@@ -1,7 +1,5 @@
 
-import {useEffect, useState, createContext, useContext} from 'react';
-import axios from 'axios';
-import Authorize from './authorize';
+import {useEffect, useState} from 'react';
 import TopSongs from './TopSongs';
 import Recs from './Recommendations';
 import FadeIn from 'react-fade-in/lib/FadeIn';
