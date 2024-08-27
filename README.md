@@ -9,7 +9,7 @@ Based off Spotify's "Discover Weekly" feature, but able to be used whenever.
 # Functions
 
 App is live [here](https://kevinyvv.github.io/spotify-react).
-If interested in trying/using the app, email or message me to add your Spotify account to the app's Spotify permissions.
+If interested in trying/using the app, email or message me to add your Spotify account to the app's Spotify permissions (this is due to Spotify's restrictions on API usage).
 
 
 ## Get Top Songs
